@@ -1,0 +1,29 @@
+PHÂN TÍCH VÀ DỰNG LÊN MỘT WEBSITE
+A. Những thành phần thường gặp trên giao diện website 
+    1. Header 
+    2. Navigation
+    3. Breadcrumb
+    4. Sidebar
+    5. Slider
+    6. Banner
+    7. Content
+    8. Footer
+
+B. Nguyên tắc làm việc với CSS
+    Reset CSS
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    I.nguyên tắc làm việc
+        1. từ ngoài vào trong
+        2 từ trên xuống dưới
+        3. tổng quan đến chi tiết
+
+    II. Đặt câu hỏi khi làm việc
+        1. Vị trí
+        2. kích thước (width, height)
+        3. màu sắc
+        4. kiểu dáng (kiểu chữ)
