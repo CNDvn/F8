@@ -33,6 +33,7 @@ html{
     display: inline-block;
     margin-top: 15px;
     border: none;
+    text-align: center;
 }
 
 .btn:hover{
@@ -73,6 +74,9 @@ html{
 }
 .mt-16{
     margin-top: 16px !important;
+}
+.mt-32{
+    margin-top: 32px !important;
 }
 /* Main */
 #main {
@@ -206,6 +210,7 @@ html{
 #slider .text-decription{
     font-size: 15px;
     margin-top: 25px;
+    text-shadow: 0px 0px 1px #000;
 }
 
 #content {
@@ -215,8 +220,8 @@ html{
     width: 800px;
     max-width: 100%;
     margin: 0 auto;
-    /* padding: 64px 0 112px; */
-    padding: 0 16px;
+    padding: 64px 0 112px;
+    padding: 50px 16px;
 }
 
 #content .section-heading{
@@ -242,7 +247,7 @@ html{
 }
 
 #content .member-list{
-    margin-top: 48px;
+    margin-top: 32px;
 }
 
 #content .member-name{
@@ -258,6 +263,7 @@ html{
 /* Tour section */
 .tour-section{
     background-color: #000000;
+    padding: 50px 0;
 }
 
 .tickets-list{
@@ -293,7 +299,7 @@ html{
 }
 
 .place-list{
-    margin-top: 32px;
+    margin-top: 16px;
 }
 
 .place-img{
@@ -341,7 +347,13 @@ html{
     width: 30px;
     display: inline-block;
 }
-
+.contact-info a{
+    color: #101aef;
+    opacity: 0.8;
+}
+.contact-info a:hover{
+    opacity: 1;
+}
 .contact-form{
     font-size: 15px;
 }
