@@ -12,22 +12,22 @@
 
 ## Đơn vị
 1. Absolute units (Đơn vị tuyệt đối): kích thước cố định, không thay đổi khi các yếu tố xung quanh tác động vào, như thu nhỏ/phóng to trình duyệt
-- px
-- pt
-- cm
-- mm
-- inch
-- pc
+    - px
+    - pt
+    - cm
+    - mm
+    - inch
+    - pc
 2. Relative units (Đơn vị tương đối: phải có đứa để phụ thuộc vào): kích thước không cố định, bị thay đổi khi đối tượng mà nó phụ thuộc vào bị thay đổi
-- %: phụ thuộc vào thẻ chứa nó (mặc định 100% = 16px)
-- rem: phụ thuộc vào thẻ html
-- em: phụ thuộc vào thẻ gần nhất chứa nó (mặc định 1em = 16px)
-- vw(viewport width): phụ thuộc vào chiều ngang của trình duyệt (ex: 50vw = 50%vw)
-- vh(viewport height): phụ thuộc vào chiều dọc của trình duyệt (ex: 50vh = 50%vh)
-- vmin
-- vmax
-- ex
-- ch
+    - %: phụ thuộc vào thẻ chứa nó (mặc định 100% = 16px)
+    - rem: phụ thuộc vào thẻ html
+    - em: phụ thuộc vào thẻ gần nhất chứa nó (mặc định 1em = 16px)
+    - vw(viewport width): phụ thuộc vào chiều ngang của trình duyệt (ex: 50vw = 50%vw)
+    - vh(viewport height): phụ thuộc vào chiều dọc của trình duyệt (ex: 50vh = 50%vh)
+    - vmin
+    - vmax
+    - ex
+    - ch
 
 ## độ ưu tiên
 1. Internal, External (thằng nào ở sau thì gọi apply thằng đó)
