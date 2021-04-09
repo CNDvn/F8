@@ -1,5 +1,5 @@
 
-        Vài tag phổ biến
+        ##Vài tag phổ biến
             1. h1 - h6 :heading
             2. p :paragraph
             3. img :image
@@ -10,7 +10,7 @@
             8. button
             9. div
     
-        Đơn vị
+        ##Đơn vị
         1. Absolute units (Đơn vị tuyệt đối): kích thước cố định, không thay đổi khi các yếu tố xung quanh tác động vào, như thu nhỏ/phóng to trình duyệt
            px
            pt
@@ -29,7 +29,7 @@
            ex
            ch
     
-        độ ưu tiên
+        ##độ ưu tiên
             1. Internal, External (thằng nào ở sau thì gọi apply thằng đó)
             2. Inline - 1000
             3. #id - 100
@@ -38,7 +38,7 @@
             6. Equal specificity?
             7. Universal selector and inherited
     
-        Position (có thêm top left righ bottom khi dùng thuộc tính này)
+        ##Position (có thêm top left righ bottom khi dùng thuộc tính này)
             1.Relative: tương đối
                 + không bị phụ thuộc vào đối tượng nào khác cả, lấy chính vị trí đang đứng để làm gốc tọa độ => phụ thuộc vào chính nó
             2.Absolute: tuyệt đối
@@ -47,21 +47,22 @@
                 + vị trí phụ thuộc vào khung của trình duyệt
             4.Sticky: bám dính phụ thuộc vào khung trình duyệt
     
-        Breakpoints: là những điểm/vị trí mà bố cục website sẽ thay đổi - thích ứng để tạo nên giao diện responsive
+        ##Breakpoints: là những điểm/vị trí mà bố cục website sẽ thay đổi - thích ứng để tạo nên giao diện responsive
             - Mobile: width < 740px
             - Tablet: width >= 740px and width < 1024px
             - PC: width >= 1024px
 
-        Flexbox
-            display: flex|inline-flex
-            flex-direction: row|column 
-            flex-wrap: nowrap|wrap|wrap-reverse 
-            flex-basic:<lenght> 
-            justify-content: flex-start|flex-end|center|space-between|space-around
-            justify-self: flex-start|flex-end|center
-            align-content: flex-start|flex-end|center
-            align-self:flex-start|flex-end|center
-            flex-grow: <number>
-            flex-shrink: <number>
-            flex: <number>
-            order: <number>
+        ##Flexbox
+            - display: flex|inline-flex - quyết định có sử dụng flex hay không
+            - flex-direction: row|column - thay đổi phương hướng của main axis
+            - flex-wrap: nowrap|wrap (xuống dòng) |wrap-reverse (nhẩy lên trên | đảo chiều cross start và cross end) - ...
+            - flex-basic:<lenght> - set kích thước cho main size
+            - justify-content: flex-start|flex-end|center|space-between(cách các flex item)|space-around(cách các flex item)|space-evenly - căn được những flex item theo phương main axis (dành cho cha nếu set cho cha thì con không cần dùng justify-self vì khi dùng thằng này ở cha thì ở con nó đã tự set justify-self rồi)
+            - justify-self: flex-start|flex-end|center 
+            - align-content: flex-start|flex-end|center - giống justify-content nhưng theo phương cross axis
+            - align-self:flex-start|flex-end|center - tương tự justify-self
+            - flex-grow: <number> - thay đổi kích thước main size
+            - flex-shrink: <number> - ngược lại flex-grow (thu nhỏ lại)
+            - flex: <flex-grow>|<flex-shrink>|<flex-basic> - shorthand của flex-basic + flex-grow + flex-shrink
+            - flex-flow:<number>  - shorthand của flex-wrap + flex-direction
+            - order: <number> - quyết định thứ tự flex item được hiển thị xem thằng nào trước thằng nào sau
