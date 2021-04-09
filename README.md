@@ -1,4 +1,4 @@
-# Front-End
+# HTML & CSS
 ## Vài tag phổ biến
 1. h1 - h6 :heading
 2. p :paragraph
@@ -81,3 +81,8 @@
 - Mỗi người đặt một kiểu
 - Members đặt class trùng nhau, CSS đè lên nhau
 ### Cú pháp
+- .block
+- .block__element
+
+- .block--modifier
+- .block__element--modifier
