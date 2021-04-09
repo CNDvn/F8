@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html>
-    
-    <head>
-        <title>F8 - Shop</title>
-        <meta charset="utf-8">
-    </head>
 
-    <body>
-    
-        <!-- 
         Vài tag phổ biến
             1. h1 - h6 :heading
             2. p :paragraph
@@ -19,8 +9,6 @@
             7. input
             8. button
             9. div
-    
-     
     
         Đơn vị
         1. Absolute units (Đơn vị tuyệt đối): kích thước cố định, không thay đổi khi các yếu tố xung quanh tác động vào, như thu nhỏ/phóng to trình duyệt
@@ -41,9 +29,6 @@
            ex
            ch
     
-     
-     
-    
         độ ưu tiên
             1. Internal, External (thằng nào ở sau thì gọi apply thằng đó)
             2. Inline - 1000
@@ -53,8 +38,6 @@
             6. Equal specificity?
             7. Universal selector and inherited
     
-   
-    
         Position (có thêm top left righ bottom khi dùng thuộc tính này)
             1.Relative: tương đối
                 + không bị phụ thuộc vào đối tượng nào khác cả, lấy chính vị trí đang đứng để làm gốc tọa độ => phụ thuộc vào chính nó
@@ -63,7 +46,6 @@
             3.Fixed: phụ thuộc vào khung trình duyệt
                 + vị trí phụ thuộc vào khung của trình duyệt
             4.Sticky: bám dính phụ thuộc vào khung trình duyệt
-    
     
         Breakpoints: là những điểm/vị trí mà bố cục website sẽ thay đổi - thích ứng để tạo nên giao diện responsive
             - Mobile: width < 740px
@@ -83,7 +65,3 @@
             flex-shrink: <number>
             flex: <number>
             order: <number>
-        -->
-
-    </body>
-</html>
