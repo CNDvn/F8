@@ -66,3 +66,6 @@
             - flex: <flex-grow>|<flex-shrink>|<flex-basic> - shorthand của flex-basic + flex-grow + flex-shrink
             - flex-flow:<number>  - shorthand của flex-wrap + flex-direction
             - order: <number> - quyết định thứ tự flex item được hiển thị xem thằng nào trước thằng nào sau
+            * tham khảo: 
+                https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox#the_flex_model
+            * Ôn luyện bằng: https://codepen.io/enxaneta/full/adLPwv/
