@@ -68,3 +68,15 @@
 * tham khảo:
     https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox#the_flex_model
 * Ôn luyện bằng: https://codepen.io/enxaneta/full/adLPwv/
+
+## BEM
+- là tiêu chuẩn đặt tên class khi viết CSS
+### Ý nghĩa
+- Viết tắt của: BLock Element Modifier
+- Block: khối
+- Element: thành phần của khối
+- Modifier: Bổ sung ý nghĩa cho `Block` hoặc `Element`
+### Tại sao dùng BEM
+- Mỗi người đặt một kiểu
+- Members đặt class trùng nhau, CSS đè lên nhau
+### Cú pháp
