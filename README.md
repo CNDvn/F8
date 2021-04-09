@@ -39,13 +39,13 @@
 7. Universal selector and inherited
 
 ## Position (có thêm top left righ bottom khi dùng thuộc tính này)
-1.Relative: tương đối
+1. Relative: tương đối
     + không bị phụ thuộc vào đối tượng nào khác cả, lấy chính vị trí đang đứng để làm gốc tọa độ => phụ thuộc vào chính nó
-2.Absolute: tuyệt đối
+2. Absolute: tuyệt đối
     + phụ thuộc thẻ cha gần nhất có thuộc tính position để lấy cha đó làm gốc tọa độ
-3.Fixed: phụ thuộc vào khung trình duyệt
+3. Fixed: phụ thuộc vào khung trình duyệt
     + vị trí phụ thuộc vào khung của trình duyệt
-4.Sticky: bám dính phụ thuộc vào khung trình duyệt
+4. Sticky: bám dính phụ thuộc vào khung trình duyệt
 
 ## Breakpoints: là những điểm/vị trí mà bố cục website sẽ thay đổi - thích ứng để tạo nên giao diện responsive
 - Mobile: width < 740px
