@@ -86,3 +86,6 @@
 
 - .block--modifier
 - .block__element--modifier
+### Trường hợp Block lồng Block
+- Block con là thành phần dùng chung => là một block mới
+- Block con chứa nhiều element
