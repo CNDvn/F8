@@ -93,19 +93,19 @@
 1. Xuất hiện từ đầu thế kỷ XX trong phong trào (Constructivism) nghệ thuật/kiến trúc
 2. Tạo nên các khung nền, hỗ trợ việc sắp xếp bố cục theo trật tự/thống nhất/cân bằng
 3. Hệ thống lưới thường gặp:
-    - Lưới nhiều cột (Mutilcolumn grid)
-    - Lưới một cột (Single column grid)
-    - Lưới module (Modular grid)
-    - Lưới đường cơ sở (Baseline grid)
+- Lưới nhiều cột (Mutilcolumn grid)
+- Lưới một cột (Single column grid)
+- Lưới module (Modular grid)
+- Lưới đường cơ sở (Baseline grid)
 4. Vai trò
-    - Tổ chức: có các đường căn gióng tiện lợi, dễ dàng sắp xếp các thành phần được ngăn nắp
-    - Cân bằng: Dù là đối xứng/Bất đối xứng, mang lại cái nhìn trực quan, đảm bảo sự cân bằng
-    - Tách biệt thành phần: Phân chia nội dung, tạo khoảng cách các phần hiệu quả
+- Tổ chức: có các đường căn gióng tiện lợi, dễ dàng sắp xếp các thành phần được ngăn nắp
+- Cân bằng: Dù là đối xứng/Bất đối xứng, mang lại cái nhìn trực quan, đảm bảo sự cân bằng
+- Tách biệt thành phần: Phân chia nội dung, tạo khoảng cách các phần hiệu quả
 5. Ứng dụng
-    - Lưới trong thiết kế UI UX: vai trò đặc biệt quan trọng trong Responsive web design
-    - Lưới trong in ấn: Google "Grid system"
+- Lưới trong thiết kế UI UX: vai trò đặc biệt quan trọng trong Responsive web design
+- Lưới trong in ấn: Google "Grid system"
 6. Responsive web design
-    - Grid: thành phần cha
-    - Row: Dòng
-    - Column: Cột
-    - Gutters: Khoảng cách 2 phía của column
+- Grid: thành phần cha
+- Row: Dòng
+- Column: Cột
+- Gutters: Khoảng cách 2 phía của column
