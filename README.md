@@ -109,4 +109,3 @@
 - Row: Dòng
 - Column: Cột
 - Gutters: Khoảng cách 2 phía của column
-- a
