@@ -109,3 +109,8 @@
 - Row: Dòng
 - Column: Cột
 - Gutters: Khoảng cách 2 phía của column
+7. Thành phần chính (lý thuyết)
+- Column - Cột
++ Độ rộng sử dụng đơn vị % (tương đối) giúp linh động, dễ dàng tương thích với độ rộng khác nhau của các thiết bị. Số lượng cột trong grid system được xác định trước. (VD: PC 12|16 cột, tablet 8 cột, mobile 4 cột)
+- Gutter - Đường ngăn cách (rãnh ngăn)
+- Margin - Phần lề
