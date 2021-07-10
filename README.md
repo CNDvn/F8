@@ -113,4 +113,6 @@
 - Column - Cột
     - Độ rộng sử dụng đơn vị % (tương đối) giúp linh động, dễ dàng tương thích với độ rộng khác nhau của các thiết bị. Số lượng cột trong grid system được xác định trước. (VD: PC 12|16 cột, tablet 8 cột, mobile 4 cột)
 - Gutter - Đường ngăn cách (rãnh ngăn)
+    - Là khoảng cách 2 phía của 1 cột, tạo nên rãnh ngăn giữa các cột. Độ rộng rãnh ngăn có thể thay đổi cho phù hợp với thiết kế hoặc độ rộng màn hình. (VD: PC/Tablet 24px, mobile 16px)
 - Margin - Phần lề
+    - Là khoảng cách 2 bên trái và phải của bố cục chính của website. Độ rộng phần lề thay đổi để phù hợp với các kích thước màn hình. VD: Phần lề lớn thích hợp cho màn hình lớn như PC, phần lề nhỏ thích hợp cho màn hình nhỏ như Tablet, mobile.
