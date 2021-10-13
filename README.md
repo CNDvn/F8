@@ -89,6 +89,7 @@
 ### Trường hợp Block lồng Block
 - Block con là thành phần dùng chung => là một block mới
 - Block con chứa nhiều element
+
 ## Grid System
 1. Xuất hiện từ đầu thế kỷ XX trong phong trào (Constructivism) nghệ thuật/kiến trúc
 2. Tạo nên các khung nền, hỗ trợ việc sắp xếp bố cục theo trật tự/thống nhất/cân bằng
@@ -116,3 +117,30 @@
     - Là khoảng cách 2 phía của 1 cột, tạo nên rãnh ngăn giữa các cột. Độ rộng rãnh ngăn có thể thay đổi cho phù hợp với thiết kế hoặc độ rộng màn hình. (VD: PC/Tablet 24px, mobile 16px)
 - Margin - Phần lề
     - Là khoảng cách 2 bên trái và phải của bố cục chính của website. Độ rộng phần lề thay đổi để phù hợp với các kích thước màn hình. VD: Phần lề lớn thích hợp cho màn hình lớn như PC, phần lề nhỏ thích hợp cho màn hình nhỏ như Tablet, mobile.
+8. Thành phần chính (làm việc với CSS)
+- Grid - Lưới (Thường là phần cha, chứa Row và Column)
+- Row - Dòng (Dòng - chiều ngang, chứa Column)
+- Column - Cột (chứa nội dung / thành phần trên website)
+
+## Tạo thư viện Grid
+### Tạo đối tượng Grid
+1. Tạo class 
+- grid: full-width, chiếm hết chiều ngang của đối tượng (cha)
+- wide: chiều ngang tối đa 1200px
+2. Đặt lại chiều rộng trên các thiết bị
+
+@media(min-width: 740px) and (max-width: 1023px){
+    .wide{
+        width: 644px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1239px){
+    .wide{
+        width: 984px;
+    }
+}
+
+## Một vài thứ hay
+### Reset CSS
+- https://cdnjs.com/libraries/normalize trang tải cdn reset css
