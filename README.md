@@ -129,18 +129,40 @@
 - wide: chiều ngang tối đa 1200px
 2. Đặt lại chiều rộng trên các thiết bị
 
-@media(min-width: 740px) and (max-width: 1023px){
+- @media(min-width: 740px) and (max-width: 1023px){
     .wide{
         width: 644px;
     }
 }
-
-@media (min-width: 1024px) and (max-width: 1239px){
+- @media (min-width: 1024px) and (max-width: 1239px){
     .wide{
         width: 984px;
     }
 }
-
+### Tạo đối tượng Row
+1. Vai trò:
+- Chứa các columns, giúp các columns nằm theo chiều ngang
+- Khi tổng chiều ngang columns vượt quá kích thước Row, cho columns xuống hàng
+- Loại bỏ khoảng thừa do gutters tạo ra ở 2 phía
+2. CSS:
+- @media (min-width: 740px){
+    .row{
+        margin-left: -8px;
+        margin-right: -8px;
+    }
+}
+- @media (min-width: 1113px){
+    .row{
+        margin-left: -12px;
+        margin-right: -12px;
+    }
+}
+- @media (min-width: 1024px) and (mã-width: 1239px){
+    .wide .row{
+        margin-left: -12px;
+        margin-right: -12px;
+    }
+}
 ## Một vài thứ hay
 ### Reset CSS
 - https://cdnjs.com/libraries/normalize trang tải cdn reset css
